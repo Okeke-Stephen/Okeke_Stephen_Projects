@@ -79,7 +79,7 @@ def getDateFeatures(df, date):
 
 # ----- Loading the key components
 # Loading the base dataframe
-rpath = r"streamlit_src\merged_data.csv"
+rpath = r"merged_data.csv"
 merged_data = load_data(rpath)
 
 # Loading the toolkit
